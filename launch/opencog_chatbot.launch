@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <rosparam command="load" file="$(find ros_opencog_chatbot)/config/chatbot.yaml" />
+  <node name="opencog_chatbot" pkg="ros_opencog_chatbot" type="opencog_chatbot" output="screen" />
+</launch>

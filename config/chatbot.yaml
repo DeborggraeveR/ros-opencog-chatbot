@@ -1,0 +1,6 @@
+opencog_chatbot:
+  input_topic:          "opencog/chat_input"
+  output_topic:         "opencog/chat_output"
+  scm_scripts:
+  - "script1.scm"
+  - "script2.scm"
